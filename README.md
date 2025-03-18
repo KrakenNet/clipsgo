@@ -1,11 +1,13 @@
 # CLIPSgo Bindings for CLIPS in the Go Language
 
-A Go wrapper for CLIPS, inspired by [clipspy](https://clipspy.readthedocs.io/en/latest/) and implemented using [cgo](https://golang.org/cmd/cgo/).
+A Go wrapper for CLIPS, inspired by [clipspy](https://clipspy.readthedocs.io/en/latest/) and implemented using [cgo](https://golang.org/cmd/cgo/). Forked from [mattmsi](https://github.com/mattsmi/clipsgo)
 
 Instructions and examples updated from those found in the original package written by Kris Raney (_Keysight_). All examples are no longer code-snippets but complete Go programs, which you
-can run and test at home.
+can run and test at home. Provided by mattmsi
 
 The original repository can be found [here](https://github.com/Keysight/clipsgo).
+
+Updated to include current [documentation](https://github.com/KrakenNet/clipsgo/docs/clips) and to update everything.
 
 ## Design
 
@@ -178,7 +180,7 @@ package main
 import (
 	"testing"
 
-	"github.com/mattsmi/clipsgo/pkg/clips"
+	"github.com/KrakenNet/clipsgo/pkg/clips"
 	"gotest.tools/assert"
 )
 
@@ -243,7 +245,7 @@ package main
 import (
 	"testing"
 
-	"github.com/mattsmi/clipsgo/pkg/clips"
+	"github.com/KrakenNet/clipsgo/pkg/clips"
 	"gotest.tools/assert"
 )
 
@@ -307,7 +309,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/mattsmi/clipsgo/pkg/clips"
+	"github.com/KrakenNet/clipsgo/pkg/clips"
 	"gotest.tools/assert"
 )
 
@@ -353,7 +355,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/mattsmi/clipsgo/pkg/clips"
+	"github.com/KrakenNet/clipsgo/pkg/clips"
 	"gotest.tools/assert"
 )
 
@@ -560,7 +562,7 @@ package main
 import (
 	"testing"
 
-	"github.com/mattsmi/clipsgo/pkg/clips"
+	"github.com/KrakenNet/clipsgo/pkg/clips"
 	"gotest.tools/assert"
 )
 
@@ -590,7 +592,7 @@ package main
 import (
 	"testing"
 
-	"github.com/mattsmi/clipsgo/pkg/clips"
+	"github.com/KrakenNet/clipsgo/pkg/clips"
 	"gotest.tools/assert"
 )
 
@@ -735,3 +737,8 @@ $ godoc -http=:6060
 ```
 
 Then access http://localhost:6060/ from your browser
+
+
+# Roadmap
+* Bring all updates from CLIPS into consideration
+* Update to include http/server bindings for routers
